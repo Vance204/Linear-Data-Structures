@@ -85,8 +85,11 @@ Enter choice: 1
 2. Pop
 3. Display
 4. Exit Stack Operations
+   
 Enter choice: 1
+
 Enter value to push: 10
+
 Pushed 10 into stack.
 
 --- Stack Operations ---
@@ -94,7 +97,9 @@ Pushed 10 into stack.
 2. Pop
 3. Display
 4. Exit Stack Operations
+   
 Enter choice: 2
+
 Popped: 10
 
 --- Stack Operations ---
@@ -102,17 +107,23 @@ Popped: 10
 2. Pop
 3. Display
 4. Exit Stack Operations
+   
 Enter choice: 4
 
 Choose Data Structure:
+
 1.Stack
+
 2.Queue
+
 3.Linked List
+
 4.Circular Linked List
+
 5. Exit
+
 Enter choice: 5
 
 Exiting...
 
-Process finished with exit code 0
 
