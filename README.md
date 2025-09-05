@@ -113,7 +113,7 @@ Choose Data Structure:
 4.Circular Linked List
 
 5. Exit
-6. 
+
 Enter choice: 5
 
 Exiting...
