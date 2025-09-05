@@ -14,32 +14,45 @@ The user can select a data structure that they wanted to perform and its operati
 
 STACK OPERATIONS
 - It follows the LIFO principle
+  
 Push - it adds a new element on top of the stack
 Pop - removes the top element
 Display - display all the elements
 Exit Stack operations - exit the stack operations back to the main menu
 
 QUEUE OPERATIONS
+
 -It also follows the FIFO principle.
 Enqueue - adds a new element at the end 
 Dequeue - removes the element at the front
 Display - prints all the elements 
 Exit Queue operations - exit the queue operations back to the main menu
 
+
 LINKED LIST OPERATIONS 
 -It uses Java's built-in LinkedList class.
+
 Insert at the end - adds a new element at the end of the linked list
+
 Delete at the beginning - removes the first element
+
 Display - prints all the elements in the linked list 
+
 Exit linked list operations - exit the linked list operations back to the main menu
 
 
 CIRCULAR LINKED LIST OPERATION
+
 - It is a custom implemeentation where the last node points back to the head node.
+  
 - Made using two classes 'Noded' and 'CircularLinkedList'
-  insert - adds a new node at the end 
+  
+  insert - adds a new node at the end
+
   delete - removes the first node
+  
   display - prints all the nodes
+  
   exit circular linked list operation - exit the operation back to the main menu
 
   
