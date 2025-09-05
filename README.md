@@ -15,7 +15,7 @@ The user can select a data structure that they wanted to perform and its operati
 STACK OPERATIONS
 
 - It follows the LIFO principle
-- 
+  
 Push - it adds a new element on top of the stack
 
 Pop - removes the top element
