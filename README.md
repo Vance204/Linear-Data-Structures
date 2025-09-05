@@ -65,7 +65,8 @@ CIRCULAR LINKED LIST OPERATION
 
   # Sample Run
 
-  Choose Data Structure:
+Choose Data Structure:
+
 1.Stack
   
 2.Queue
