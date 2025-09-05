@@ -67,10 +67,15 @@ CIRCULAR LINKED LIST OPERATION
 
 Choose Data Structure:
 1.Stack
+
 2.Queue
+
 3.Linked List
+
 4.Circular Linked List
+
 5. Exit
+   
 Enter choice: 1
 
 --- Stack Operations ---
@@ -98,11 +103,17 @@ Popped: 10
 Enter choice: 4
 
 Choose Data Structure:
+
 1.Stack
+
 2.Queue
+
 3.Linked List
+
 4.Circular Linked List
+
 5. Exit
+6. 
 Enter choice: 5
 
 Exiting...
