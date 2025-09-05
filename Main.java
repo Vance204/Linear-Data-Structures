@@ -69,10 +69,11 @@ public class Main {
                     int queueChoice = scanner.nextInt();
 
                     if(queueChoice == 1){
-                        System.out.println("Enter value to enqueue: ");
+                        System.out.print("Enter value to enqueue: ");
                         int value = scanner.nextInt();
                      if(queue.offer(value)){
                          System.out.println("Enqueued " + value + " into queue");
+                         System.out.println();
                      } else {
                          System.out.println("Failed to enqueue value.");
                      }
@@ -82,12 +83,15 @@ public class Main {
                             System.out.println("Queue is empty. There is nothing to dequeue.");
                         } else{
                             System.out.println("Dequeued: " + remove);
+                            System.out.println();
                         }
                     } else if (queueChoice == 3){
                         if(queue.isEmpty()){
                             System.out.println("Queue is empty. ");
+                            System.out.println();
                         } else {
                             System.out.println("Queue conents: " + queue);
+                            System.out.println();
                         }
                     } else if(queueChoice == 4){
                         System.out.println();
@@ -96,13 +100,13 @@ public class Main {
                    } break;
                 case 3:
                     while(true) {
-                        System.out.println("--- Linked List Operations ---");
+                        System.out.println("\n--- Linked List Operations ---");
                         System.out.println("1. Insert at end\n2. Delete at beginning\n3. Display\n4. Exit Linked List Operations");
                         System.out.print("Enter choice: ");
                         int linkChoice = scanner.nextInt();
 
                         if(linkChoice == 1){
-                            System.out.println("Enter value to insert: ");
+                            System.out.print("Enter value to insert: ");
                          int value = scanner.nextInt();
                          linkedList.add(value);
                             System.out.println("Inserted " + value + " at the end of the linked list.");
@@ -120,6 +124,7 @@ public class Main {
                                 System.out.println("Linked List: " + linkedList );
                             }
                         } else if(linkChoice == 4){
+                            System.out.println();
                             break;
                         }else{
                             System.out.println("Invalid input.");
@@ -130,11 +135,10 @@ public class Main {
                         System.out.println("--- Circular List Operations ---");
                         System.out.println("1. Insert\n2. Delete\n3. Display\n4. Exit Circular List Operations");
                         System.out.print("Enter choice: ");
-                        System.out.println();
                         int circChoice = scanner.nextInt();
 
                     if(circChoice == 1){
-                        System.out.println("Enter the value to insert: ");
+                        System.out.print("Enter the value to insert: ");
                         int value = scanner.nextInt();
                         myList.insert(value);
                         System.out.println("Inserted " + value + " into circular linked list. \n");
@@ -144,6 +148,7 @@ public class Main {
                     } else if(circChoice == 3){
                         myList.display();
                     }else if(circChoice == 4){
+                        System.out.println();
                             break;
                     }else {
                         System.out.println("Invalid input.");
