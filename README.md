@@ -13,19 +13,27 @@ When the program starts, a main menu is displayed providing 5 options to the use
 The user can select a data structure that they wanted to perform and its operation, or they can exit the program if they want.
 
 STACK OPERATIONS
+
 - It follows the LIFO principle
-  
+- 
 Push - it adds a new element on top of the stack
+
 Pop - removes the top element
+
 Display - display all the elements
+
 Exit Stack operations - exit the stack operations back to the main menu
 
 QUEUE OPERATIONS
 
 -It also follows the FIFO principle.
+
 Enqueue - adds a new element at the end 
+
 Dequeue - removes the element at the front
+
 Display - prints all the elements 
+
 Exit Queue operations - exit the queue operations back to the main menu
 
 
