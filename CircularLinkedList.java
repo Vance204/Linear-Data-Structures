@@ -28,10 +28,12 @@ public class CircularLinkedList {
                  tail.next = head;
              }
                 System.out.println("Deleted node...");
+                System.out.println();
             }
             public void display() {
                 if (head == null) {
                     System.out.println("Circular list is empty.");
+                    System.out.println();
                     return;
                 }
 
