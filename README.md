@@ -66,14 +66,21 @@ CIRCULAR LINKED LIST OPERATION
 # Sample Run
 
 Choose Data Structure:
+
 1.Stack
+
 2.Queue
+
 3.Linked List
+
 4.Circular Linked List
+
 5. Exit
+
 Enter choice: 1
 
 --- Stack Operations ---
+
 1. Push
 2. Pop
 3. Display
